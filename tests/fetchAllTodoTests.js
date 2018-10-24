@@ -13,7 +13,7 @@ describe('test /endpoints/fetchAllTodos', function () {
 
     });
 
-    it('fetch a todo', async function() {
+    it('fetch all todo', async function() {
         const result = await axios.get('http://localhost:3001/endpoints/fetchAllTodos?userId=eaghayi');
         assert.equal(result.data[0].id,'1');
         assert.equal(result.data[1].id,'2');
@@ -22,6 +22,12 @@ describe('test /endpoints/fetchAllTodos', function () {
         assert.equal(result.data[0].title,'commit code');
         assert.equal(result.data[1].title,'push code');
         assert.equal(result.data[0].dueDate,'02/25/2018');
+
+    });
+    it('it returns empty array if it can not find any thing', async function() {
+        const result = await axios.get('http://localhost:3001/endpoints/fetchAllTodos?userId=tlatoza');
+        assert.equal(result.data,'');
+
 
     });
 

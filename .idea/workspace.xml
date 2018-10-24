@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c998ba-e11f-4eb0-b3cc-91dfd845dbd1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/fetchAllTodoTests.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tests/fetchAllTodoTests.js" afterPath="$PROJECT_DIR$/tests/fetchAllTodoTests.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="fetchAllTodoTests.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="64" lean-forward="false" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+            <state relative-caret-position="476">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -229,7 +229,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test /endpoints/fetchAllTodos.fetch a todo">
+  <component name="RunManager" selected="Mocha.test /endpoints/fetchAllTodos">
+    <configuration name="test /endpoints/fetchAllTodos" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/fetchAllTodos" />
+      </test-names>
+    </configuration>
     <configuration name="test /endpoints/fetchAllTodos.fetch a todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -260,6 +274,21 @@
         <name value="illegal argument" />
       </test-names>
     </configuration>
+    <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/fetchAllTodos" />
+        <name value="it returns empty array if it can not find any thing" />
+      </test-names>
+    </configuration>
     <configuration name="test /endpoints/fetchTodo (1)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -274,50 +303,21 @@
         <name value="test /endpoints/fetchTodo" />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/fetchTodo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/fetchTodo" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/fetchTodo.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodosTests.ts</test-file>
-      <test-names>
-        <name value="test /endpoints/fetchTodo" />
-        <name value="illegal argument" />
-      </test-names>
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo.illegal argument" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo.illegal argument" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +340,7 @@
       <workItem from="1539782709804" duration="5637000" />
       <workItem from="1540234746575" duration="25000" />
       <workItem from="1540242347953" duration="5089000" />
-      <workItem from="1540320553541" duration="6479000" />
+      <workItem from="1540320553541" duration="6912000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539729817864</created>
@@ -367,20 +367,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 53m 02s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 54m 02s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 55m 08s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 55m 49s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 56m 06s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints_fetchAllTodos - 2018.10.23 at 20h 06m 55s.xml">
+      <configuration name="test /endpoints/fetchAllTodos" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 56m 58s.xml">
       <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
@@ -394,12 +382,24 @@
     <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 58m 22s.xml">
       <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 19h 52m 33s.xml">
+    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 13s.xml">
       <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 35s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 42s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.23 at 20h 06m 34s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.23 at 20h 06m 49s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20025000" />
+    <option name="totallyTimeSpent" value="20458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -783,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="64" lean-forward="false" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="476">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
