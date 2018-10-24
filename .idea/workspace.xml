@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c998ba-e11f-4eb0-b3cc-91dfd845dbd1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,101 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="endpointsTests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/endpointsTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetchTodoTests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fetchAllTodoTests.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
+      <file leaf-file-name="updatePriorityOfaTodoTests.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getAllTodoOfaGroupTests.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="134" lean-forward="false" selection-start-line="30" selection-start-column="134" selection-end-line="30" selection-end-column="134" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="express.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -150,6 +59,7 @@
         <option value="$PROJECT_DIR$/tests/fetchAllTodosTests.ts" />
         <option value="$PROJECT_DIR$/tests/fetchAllTodoTests.js" />
         <option value="$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js" />
+        <option value="$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js" />
       </list>
     </option>
   </component>
@@ -242,8 +152,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing">
-    <configuration name="test /endpoints/fetchAllTodos.fetch all todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.test /endpoints//updatePriorityOfaTodo">
+    <configuration name="test /endpoints//updatePriorityOfaTodo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -251,14 +161,13 @@
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js</test-file>
       <test-names>
-        <name value="test /endpoints/fetchAllTodos" />
-        <name value="fetch all todo" />
+        <name value="test /endpoints//updatePriorityOfaTodo" />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="test /endpoints//updatePriorityOfaTodo.could not find object with the id" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -267,13 +176,13 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
+      <test-file>$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js</test-file>
       <test-names>
-        <name value="test /endpoints/fetchAllTodos" />
-        <name value="it returns empty array if it can not find any thing" />
+        <name value="test /endpoints//updatePriorityOfaTodo" />
+        <name value="could not find object with the id" />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="test /endpoints//updatePriorityOfaTodo.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -282,28 +191,13 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
+      <test-file>$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js</test-file>
       <test-names>
-        <name value="test /endpoints/getAllTodoOfaGroup" />
-        <name value="fetch all todo" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/getAllTodoOfaGroup.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/getAllTodoOfaGroup" />
+        <name value="test /endpoints//updatePriorityOfaTodo" />
         <name value="illegal argument" />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -312,27 +206,42 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
+      <test-file>$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js</test-file>
       <test-names>
-        <name value="test /endpoints/getAllTodoOfaGroup" />
-        <name value="it returns empty array if it can not find any thing" />
+        <name value="test /endpoints//updatePriorityOfaTodo" />
+        <name value="update priority of a todo" />
+      </test-names>
+    </configuration>
+    <configuration name="test /endpoints/fetchTodo.fetch a todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/fetchTodoTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/fetchTodo" />
+        <name value="fetch a todo" />
       </test-names>
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.bin/www" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.illegal argument" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.fetch all todo" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch all todo" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.illegal argument" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.could not find object with the id" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo.fetch a todo" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.update priority of a todo" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.fetch all todo" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch all todo" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.illegal argument" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.update priority of a todo" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.illegal argument" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints//updatePriorityOfaTodo.could not find object with the id" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo.fetch a todo" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +265,7 @@
       <workItem from="1540234746575" duration="25000" />
       <workItem from="1540242347953" duration="5089000" />
       <workItem from="1540320553541" duration="7040000" />
-      <workItem from="1540386652060" duration="1840000" />
+      <workItem from="1540386652060" duration="6005000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539729817864</created>
@@ -383,39 +292,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_all_todo - 2018.10.24 at 10h 34m 45s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo - 2018.10.24 at 13h 54m 08s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 35m 53s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo - 2018.10.24 at 13h 54m 26s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 36m 09s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo - 2018.10.24 at 13h 54m 35s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 36m 20s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 47m 36s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 32m 26s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 51m 26s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 29s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 51m 38s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 42s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 52m 17s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 58s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 52m 32s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 37m 34s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 52m 50s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_getAllTodoOfaGroup_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 38m 23s.xml">
-      <configuration name="test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints__updatePriorityOfaTodo_update_priority_of_a_todo - 2018.10.24 at 13h 52m 59s.xml">
+      <configuration name="test /endpoints//updatePriorityOfaTodo.update priority of a todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22426000" />
+    <option name="totallyTimeSpent" value="26591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -468,14 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -838,26 +739,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="134" lean-forward="false" selection-start-line="30" selection-start-column="134" selection-end-line="30" selection-end-column="134" />
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/updatePriorityOfaTodoTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
