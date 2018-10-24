@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c998ba-e11f-4eb0-b3cc-91dfd845dbd1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tests/fetchAllTodoTests.js" afterPath="$PROJECT_DIR$/tests/fetchAllTodoTests.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,18 +50,28 @@
       <file leaf-file-name="fetchTodoTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fetchAllTodoTests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fetchAllTodoTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAllTodoOfaGroupTests.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="134" lean-forward="false" selection-start-line="30" selection-start-column="134" selection-end-line="30" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -139,6 +149,7 @@
         <option value="$PROJECT_DIR$/tests/fetchTodoTests.js" />
         <option value="$PROJECT_DIR$/tests/fetchAllTodosTests.ts" />
         <option value="$PROJECT_DIR$/tests/fetchAllTodoTests.js" />
+        <option value="$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js" />
       </list>
     </option>
   </component>
@@ -153,12 +164,14 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="947" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -175,6 +188,7 @@
     </navigator>
     <panes>
       <pane id="NBKnowledgePane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,7 +211,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,22 +242,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test /endpoints/fetchAllTodos">
-    <configuration name="test /endpoints/fetchAllTodos" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/fetchAllTodos" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/fetchAllTodos.fetch a todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing">
+    <configuration name="test /endpoints/fetchAllTodos.fetch all todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -256,22 +255,7 @@
       <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
       <test-names>
         <name value="test /endpoints/fetchAllTodos" />
-        <name value="fetch a todo" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/fetchAllTodos.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/fetchAllTodos" />
-        <name value="illegal argument" />
+        <name value="fetch all todo" />
       </test-names>
     </configuration>
     <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
@@ -289,7 +273,7 @@
         <name value="it returns empty array if it can not find any thing" />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/fetchTodo (1)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -297,27 +281,58 @@
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/tests/fetchAllTodoTests.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
       <test-names>
-        <name value="test /endpoints/fetchTodo" />
+        <name value="test /endpoints/getAllTodoOfaGroup" />
+        <name value="fetch all todo" />
+      </test-names>
+    </configuration>
+    <configuration name="test /endpoints/getAllTodoOfaGroup.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/getAllTodoOfaGroup" />
+        <name value="illegal argument" />
+      </test-names>
+    </configuration>
+    <configuration name="test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/getAllTodoOfaGroup" />
+        <name value="it returns empty array if it can not find any thing" />
       </test-names>
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.bin/www" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.illegal argument" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.fetch all todo" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch all todo" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.illegal argument" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch a todo" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchTodo (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.fetch all todo" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/fetchAllTodos.fetch all todo" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/getAllTodoOfaGroup.illegal argument" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +355,8 @@
       <workItem from="1539782709804" duration="5637000" />
       <workItem from="1540234746575" duration="25000" />
       <workItem from="1540242347953" duration="5089000" />
-      <workItem from="1540320553541" duration="6912000" />
+      <workItem from="1540320553541" duration="7040000" />
+      <workItem from="1540386652060" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539729817864</created>
@@ -367,54 +383,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test__endpoints_fetchAllTodos - 2018.10.23 at 20h 06m 55s.xml">
-      <configuration name="test /endpoints/fetchAllTodos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="test__endpoints_fetchAllTodos_fetch_all_todo - 2018.10.24 at 10h 34m 45s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.fetch all todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 56m 58s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 57m 45s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 57m 52s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_fetch_a_todo - 2018.10.23 at 19h 58m 22s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.fetch a todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 13s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 35s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_illegal_argument - 2018.10.23 at 20h 02m 42s.xml">
-      <configuration name="test /endpoints/fetchAllTodos.illegal argument" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.23 at 20h 06m 34s.xml">
+    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 35m 53s.xml">
       <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.23 at 20h 06m 49s.xml">
+    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 36m 09s.xml">
       <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_fetchAllTodos_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 36m 20s.xml">
+      <configuration name="test /endpoints/fetchAllTodos.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 32m 26s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 29s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 42s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 36m 58s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_fetch_all_todo - 2018.10.24 at 10h 37m 34s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.fetch all todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_getAllTodoOfaGroup_it_returns_empty_array_if_it_can_not_find_any_thing - 2018.10.24 at 10h 38m 23s.xml">
+      <configuration name="test /endpoints/getAllTodoOfaGroup.it returns empty array if it can not find any thing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20458000" />
+    <option name="totallyTimeSpent" value="22426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26439232" sideWeight="0.4796748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26439232" sideWeight="0.51626015" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26519915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26439232" sideWeight="0.48373982" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26439232" sideWeight="0.5203252" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26519915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,6 +437,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,6 +468,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/endpointsTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -741,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/endpointsTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -765,26 +829,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fetchAllTodosTests.ts">
+    <entry file="file://$PROJECT_DIR$/tests/fetchAllTodosTests.ts" />
+    <entry file="file://$PROJECT_DIR$/tests/endpointsTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fetchTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="45" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fetchAllTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="134" lean-forward="false" selection-start-line="30" selection-start-column="134" selection-end-line="30" selection-end-column="134" />
           <folding />
         </state>
       </provider>
