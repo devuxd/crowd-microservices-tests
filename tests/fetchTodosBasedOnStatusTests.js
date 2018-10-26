@@ -6,7 +6,7 @@ var assert = require('assert');
 
 
 
-describe('test /endpoints/getAllTodoOfaGroup', function () {
+describe('test /endpoints/fetchTodosBasedOnStatus', function () {
 
 
     it('illegal argument', async function() {
