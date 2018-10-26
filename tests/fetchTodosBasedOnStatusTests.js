@@ -17,7 +17,7 @@ describe('test /endpoints/getAllTodoOfaGroup', function () {
 
     });
 // it fails because it returns all todos, checking for status is implemented in wrong way
-    it('fetch all todo of a group', async function() {
+    it('fetch all todo of a specific status', async function() {
         const result = await axios.get('http://localhost:3001/endpoints/fetchTodosBasedOnStatus', {params:{ userId:'eaghayi', status:'1'}});
       // console.log(result.data);
         assert.equal(result.data[0].id,'1');
@@ -35,6 +35,6 @@ describe('test /endpoints/getAllTodoOfaGroup', function () {
 
     });
 
-
+//they forgot to check  if (allTodos[i].status == status)
 
 });
