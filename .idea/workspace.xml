@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c998ba-e11f-4eb0-b3cc-91dfd845dbd1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/addTodoTests.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/updateTodoTests.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/deleteTodoTests.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,16 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="getAllTodoOfaGroupTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/getAllTodoOfaGroupTests.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,17 +82,27 @@
         <entry file="file://$PROJECT_DIR$/tests/addTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="29" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
+              <caret line="29" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateTodoTests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="updateTodoTests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/updateTodoTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteTodoTests.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/deleteTodoTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -161,6 +159,7 @@
         <option value="$PROJECT_DIR$/tests/fetchTodosBasedOnStatusTests.js" />
         <option value="$PROJECT_DIR$/tests/addTodoTests.js" />
         <option value="$PROJECT_DIR$/tests/updateTodoTests.js" />
+        <option value="$PROJECT_DIR$/tests/deleteTodoTests.js" />
       </list>
     </option>
   </component>
@@ -253,7 +252,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.test /endpoints/updateTodo">
+  <component name="RunManager" selected="Mocha.test /endpoints/deleteTodo.update todo">
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="test /endpoints/deleteTodo.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/deleteTodoTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/deleteTodo" />
+        <name value="illegal argument" />
+      </test-names>
+    </configuration>
+    <configuration name="test /endpoints/deleteTodo.update todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/deleteTodoTests.js</test-file>
+      <test-names>
+        <name value="test /endpoints/deleteTodo" />
+        <name value="update todo" />
+      </test-names>
+    </configuration>
     <configuration name="test /endpoints/updateTodo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -283,66 +321,21 @@
         <name value="check checkDateFormat helper method " />
       </test-names>
     </configuration>
-    <configuration name="test /endpoints/updateTodo.illegal argument" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/updateTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/updateTodo" />
-        <name value="illegal argument" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/updateTodo.save todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/updateTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/updateTodo" />
-        <name value="save todo" />
-      </test-names>
-    </configuration>
-    <configuration name="test /endpoints/updateTodo.update todo" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/updateTodoTests.js</test-file>
-      <test-names>
-        <name value="test /endpoints/updateTodo" />
-        <name value="update todo" />
-      </test-names>
-    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin/www" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.illegal argument" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.save todo" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.update todo" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.check checkDateFormat helper method " />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.check checkDateFormat helper method " />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/deleteTodo.illegal argument" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/deleteTodo.update todo" />
+      <item index="5" class="java.lang.String" itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.check checkDateFormat helper method " />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.update todo" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.save todo" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.illegal argument" />
+        <item index="0" class="java.lang.String" itemvalue="npm.test" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.test /endpoints/deleteTodo.update todo" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.test /endpoints/deleteTodo.illegal argument" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test /endpoints/updateTodo.check checkDateFormat helper method " />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +362,7 @@
       <workItem from="1540386652060" duration="7461000" />
       <workItem from="1540560883137" duration="6031000" />
       <workItem from="1540588862048" duration="873000" />
-      <workItem from="1540741310950" duration="3481000" />
+      <workItem from="1540741310950" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1539729817864</created>
@@ -396,6 +389,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="test__endpoints_deleteTodo_illegal_argument - 2018.10.28 at 12h 50m 07s.xml">
+      <configuration name="test /endpoints/deleteTodo.illegal argument" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test__endpoints_deleteTodo_update_todo - 2018.10.28 at 12h 50m 12s.xml">
+      <configuration name="test /endpoints/deleteTodo.update todo" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
     <history-entry file="test__endpoints_updateTodo - 2018.10.28 at 12h 44m 33s.xml">
       <configuration name="test /endpoints/updateTodo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -407,12 +406,6 @@
     </history-entry>
     <history-entry file="test__endpoints_updateTodo_check_checkDateFormat_helper_method_ - 2018.10.28 at 12h 44m 28s.xml">
       <configuration name="test /endpoints/updateTodo.check checkDateFormat helper method " configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_updateTodo_update_todo - 2018.10.28 at 12h 24m 41s.xml">
-      <configuration name="test /endpoints/updateTodo.update todo" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test__endpoints_updateTodo_update_todo - 2018.10.28 at 12h 24m 54s.xml">
-      <configuration name="test /endpoints/updateTodo.update todo" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="test__endpoints_updateTodo_update_todo - 2018.10.28 at 12h 26m 53s.xml">
       <configuration name="test /endpoints/updateTodo.update todo" configurationId="mocha-javascript-test-runner" />
@@ -428,7 +421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38432000" />
+    <option name="totallyTimeSpent" value="38863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -481,13 +474,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/endpoints.Tests.js" />
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/tests/addTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
+          <caret line="29" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -797,8 +783,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/updateTodoTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/deleteTodoTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>
