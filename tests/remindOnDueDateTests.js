@@ -26,9 +26,8 @@ describe('test /endpoints/remindOnDueDate', function () {
 // it fails because it returns all todos, checking for status is implemented in wrong way
     it('fetch all todo of a specific duedate', async function() {
         const result = await axios.get('http://localhost:3001/endpoints/remindOnDueDate', {params:{ userId:'eaghayi', dueDate:'02/25/2018'}});
-        // console.log(result.data);
-        assert.equal(result.data[0].id,'1');
-        assert.equal(result.data[1].id,'2');
+        assert.equal(result.data[0].id,'2');
+        assert.equal(result.data[0].dueDate,'02/25/2018');
 
 
 

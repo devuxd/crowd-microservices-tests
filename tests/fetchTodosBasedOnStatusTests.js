@@ -21,9 +21,9 @@ describe('test /endpoints/fetchTodosBasedOnStatus', function () {
         const result = await axios.get('http://localhost:3001/endpoints/fetchTodosBasedOnStatus', {params:{ userId:'eaghayi', status:'1'}});
       // console.log(result.data);
         assert.equal(result.data[0].id,'1');
-        assert.equal(result.data[1].id,'2');
+        assert.equal(result.data.length,1);
         assert.equal(result.data[0].status,1);
-        assert.equal(result.data[1].status,1);
+
 
 
     });

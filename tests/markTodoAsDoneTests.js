@@ -27,7 +27,7 @@ describe('test /endpoints//markTodoAsDone', function () {
         assert.equal(result.data.id,'234');
         assert.equal(result.data.description,'be sure to commit unit tests');
         assert.equal(result.data.title,'commit code');
-        assert.equal(result.data.dueDate,'02/25/2018');
+        assert.equal(result.data.dueDate,'02-25-2018');
 
 
 
